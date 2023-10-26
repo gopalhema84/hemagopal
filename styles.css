@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
+.booking-form {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.booking-form h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e04d00;
+}
+
+/* Seat Selection Styles (Placeholder, adjust based on your implementation) */
+form h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Add your seat selection styles here */
+
+/* Passenger Information Styles */
+form h3:nth-of-type(2) {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Payment Information Styles (Placeholder, adjust based on your implementation) */
+form h3:nth-of-type(3) {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+/* Add your payment information styles here */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-logo h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-contact p {
+    margin: 0;
+    font-size: 0.9em;
+}
